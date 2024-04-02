@@ -1,11 +1,14 @@
 import pprint
 from letterboxd import get_lettrboxd_lists
 
-user_id = 'cochmix'
 
-my_watchlist, user_watchlist = get_lettrboxd_lists(user_id)
+if __name__ == '__main__':
 
-common_elements = set(my_watchlist).intersection(user_watchlist)
+    user_id = input('Enter the user name: ')
 
-for film in common_elements:
-    print(film)
+    my_watchlist, user_watchlist = get_lettrboxd_lists(user_id)
+
+    common_elements = set(my_watchlist).intersection(user_watchlist)
+
+    for film in common_elements:
+        print(film)
