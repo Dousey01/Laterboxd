@@ -1,6 +1,4 @@
-import pprint
 from letterboxd import get_lettrboxd_lists
-
 
 if __name__ == '__main__':
 
