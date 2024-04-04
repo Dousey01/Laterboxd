@@ -12,7 +12,10 @@ Before running this script, ensure you have the following installed:
 
 ## Installation
 1. Clone this repository or download the script to your local machine.
-2. Install the required Python packages from the `requirements.txt` file with the command `pip3 install -r requirements.txt`
+2. Install the required Python packages from the `requirements.txt` by running this command in the terminal:
+```bash
+pip3 install -r requirements.txt
+```
 3. Rename the `env.template` to `.env` and fill it with your Letterboxd credentials without quotaion marks.
 
 ## Usage
