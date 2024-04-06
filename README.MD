@@ -1,7 +1,7 @@
 # Letterboxd Watchlist Comparator
 
 ## Overview
-This script automates the process of comparing the watchlists of two Letterboxd users to find common films. It utilizes Selenium for web automation to log in to Letterboxd, fetch watchlists, and identify overlaps. This tool is perfect for movie enthusiasts looking to quickly find common interests.
+This script automates the process of comparing the watchlists of Letterboxd users to find common films. It utilizes Selenium for web automation to log in to Letterboxd, fetch watchlists, and identify overlaps. This tool is perfect for movie enthusiasts looking to quickly find common interests.
 
 ## Prerequisites
 Before running this script, ensure you have the following installed:
@@ -24,7 +24,15 @@ To run the script, navigate to the directory containing the script and execute t
 ```bash
 python3 main.py
 ```
-When prompted, enter the username of the Letterboxd user whose watchlist you want to compare with yours.
+When prompted, enter the usernames of the Letterboxd users whose watchlist you want to compare with yours. **Don't forget to add your own username!** Otherwise your own watchlist will not be compared.
+
+Example:
+
+```bash
+Enter a user name (or press Enter to proceed): YOUR_USERNAME
+Enter a user name (or press Enter to proceed): USERNAME2
+Enter a user name (or press Enter to proceed): USERNAME3
+```
 
 ## Features
 - Automatically logs into Letterboxd using your account credentials.
