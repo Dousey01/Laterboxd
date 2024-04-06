@@ -30,8 +30,8 @@ Example:
 
 ```bash
 Enter a user name (or press Enter to proceed): YOUR_USERNAME
+Enter a user name (or press Enter to proceed): USERNAME1
 Enter a user name (or press Enter to proceed): USERNAME2
-Enter a user name (or press Enter to proceed): USERNAME3
 ```
 
 ## Features
